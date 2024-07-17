@@ -316,7 +316,100 @@ display: block; */
 
 /* paperbag prodcts style end*/
 
+/* contact style start  */
 
+/* contact style end */
+
+/* contact form style start */
+
+.contact_form_container{
+    width: 100%;
+  }
+  .contact_innerpage_content_left{
+    margin-right:25px;
+  }
+  .contact_innerpage_content{
+    padding: 30px 0px;
+    width: 100%;
+  }
+  .contact_innerpage_content h2{
+    font-size: 2rem;
+   
+    text-transform: uppercase;
+  }
+  .contact_form  .form-group{
+    margin-bottom: 15px;
+    }
+    .contact_form  .form-control{
+     
+    border-radius:  0px !important;
+    }
+  
+    .contact_form label {
+      display: inline-block;
+      max-width: 100%;
+      margin-bottom: 5px;
+      font-weight: 600;
+      color: #777;
+  }
+  
+    .contact_form .form_submit{
+      
+        outline: 0 !important;
+        
+        padding: 10px;
+        font-weight: 700;
+        color: #fff !important;
+        background-color: gray;
+        border-color: gray;
+        border: none !important;
+        /* border-color: #2e6da4;
+       
+        border: 1px solid transparent; */
+        border-radius: 4px;
+    }
+    .contact_innerpage_content_right p{
+      margin-bottom: 5px;
+      font-size: 14px;
+      text-align: justify;
+    }
+    /* .just_airport {
+      font-size: x-small !important;
+    } */
+    .contact_innerpage_content_right i{
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+  
+  }
+  .contact_innerpage_content_right a{
+    outline: 0;
+    text-decoration: none;
+  }
+  .contact_innerpage_content_right a:hover{
+  color: #000 !important;
+  }
+    @media screen and (max-width: 767px) {
+      .contact_form_container{
+        margin: 0px 10px;
+    }
+    }
+  
+   
+    
+  /* contact form style end */
+  
+  /* whatsapp style start */
+  .whatsapptel {
+    position: fixed;
+    left: 15px;
+    bottom: 40%;
+    z-index: 15;
+    width: 100px;
+}
+  /* whatsapp style end */
+
+/* footer style start */
     .main_container {
 width: 100%;
 background-color: #333333;     
