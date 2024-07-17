@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Example Marketing Website</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  margin-top: 10px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Banner */
+.hero-banner {
+  background-color: #FF5733;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-banner h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-banner p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #cccccc;
+}
+
+/* About Section */
+.about-section {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Product Details */
+.product-details {
+  background-color: #f0f0f0;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.product {
+  margin-bottom: 40px;
+}
+
+.product h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 1.1rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p {
+  font-size: 1rem;
+}
+
+.footer-nav {
+  margin-top: 10px;
+}
+
+.footer-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+</style>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Company Name</h1>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero-banner">
+  <div class="container">
+    <h2>Welcome to Our Website</h2>
+    <p>Discover amazing products and services that fit your needs.</p>
+    <a href="#products" class="btn">Explore Products</a>
+  </div>
+</section>
+
+<section id="about" class="about-section">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+    <p>Phasellus condimentum lacinia ex, eget cursus mi aliquet ac.</p>
+    <a href="#contact" class="btn">Contact Us</a>
+  </div>
+</section>
+
+<section id="products" class="product-details">
+  <div class="container">
+    <h2>Our Products</h2>
+    <div class="product">
+      <h3>Product 1</h3>
+      <p>Description of Product 1</p>
+    </div>
+    <div class="product">
+      <h3>Product 2</h3>
+      <p>Description of Product 2</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Company Name. All rights reserved.</p>
+      <nav class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
