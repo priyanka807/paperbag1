@@ -62,12 +62,13 @@
     color: #fff !important;
 }
 
-.nav-link:hover,
+/* .nav-link:hover,
 .dropdown-menu li a:hover {
     background-color: #ec1c24;
     color: #fff;
     display: list-item !important;
-}
+} */
+ 
 .navbar-nav>li>a {
     text-decoration: none;}
 
