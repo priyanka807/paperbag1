@@ -119,8 +119,12 @@ color: #fff !important;
 /* <!-- banner style start  --> */
 .banner_container{
     width: 100% ;
-  height: 100%;
+
    
+}
+.carousel-item>img{
+    width: 100%;
+    height: 500px;
 }
 .carousel-inner>.item>img {
 /* min-height: 500px;
@@ -400,7 +404,7 @@ margin-top: 20px;
 
 .paperbag_details_content  .card{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
+border:1px solid  #ec1c24;
 margin-right:25px;
 }
 .paperbag_details_content  .card img{
