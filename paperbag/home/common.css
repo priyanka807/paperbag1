@@ -5,6 +5,8 @@
 
 .hightlight_title{
     font-size: 1.75rem; 
+    text-transform: capitalize !important;
+    text-shadow: 0ch;
 }
 
 .decription{

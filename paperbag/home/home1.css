@@ -119,8 +119,12 @@ color: #fff !important;
 /* <!-- banner style start  --> */
 .banner_container{
     width: 100% ;
-  height: 100%;
+
    
+}
+.carousel-item>img{
+    width: 100%;
+    height: 500px;
 }
 .carousel-inner>.item>img {
 /* min-height: 500px;
@@ -131,21 +135,29 @@ max-width: 100%;
 height: auto; */
 }
 
-.carousel-inner a{
-    background: #ec1c24;
+
+.carousel-inner  .get_quote{
     padding: 0 15px;
     min-width: 180px;
-    line-height: 50px;
-    margin-top: 25px;
+  
+
     text-transform: uppercase;
     letter-spacing: 1px;
     display: inline-block;
     font-style: normal;
     font-size: 22px;
 font-weight: bold;
-color: #fff !important;
-}
+    padding: 10px;
 
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    font-weight: 400;
+ 
+    border-radius: 5px;
+ 
+  }
+  
 .carousel-caption-first{
     position: absolute;
     right: 15%;
@@ -400,7 +412,7 @@ margin-top: 20px;
 
 .paperbag_details_content  .card{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
+border:1px solid  #ec1c24;
 margin-right:25px;
 }
 .paperbag_details_content  .card img{
@@ -512,8 +524,11 @@ margin-right:25px;
 
 /* paperbag prodcts style end*/
 
-/* contact style start  */
-
+/* youtube and certificate style start  */
+.youtube_container ,.certificate_container{
+    width: 100%;
+    padding: 25px;
+}
 /* contact style end */
 
 /* contact form style start */
